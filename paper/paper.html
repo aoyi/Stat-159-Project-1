@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="abstract">Abstract</h1>
-<p>This paper serves as an introduction to tools important for reproducible research. More specifically, I will cover the basics for Makefile, Git, GitHub, pandoc, Markdown and the role they play in reproducible workflow. In addition to general information section, the discussion section talks about how I use those tools in this project and some challenges I encountered,followed by a conclusion section summarizing key takeaways regarding the importance of reproducible workflow.</p>
+<p>This paper serves as an introduction to tools important for reproducible research. More specifically, I will cover the basics for Makefile, Git, GitHub, pandoc, Markdown and the role they play in reproducible workflow. In addition to general information section, the discussion section talks about how I use those tools in this project and some challenges I encountered, followed by a conclusion section summarizing key takeaways regarding the importance of reproducible workflow.</p>
 <p><img src="../../images/stat159-logo.png" /> <img src="../images/stat159-logo.png" /></p>
 <h1 id="introduction">Introduction</h1>
 <h2 id="makefile">Makefile</h2>
@@ -54,5 +54,33 @@ git commit -m &#39;message&#39;</code></pre>
 
 </div>
 <p>Markdown is both a plain text formatting syntax and a tool that converts the plain text to different formats. To start with, Markdown has simple syntax in human-readable format. Compared to complicated formats like HTML, it is much easier to read and understand. In addition, it is platform independent, which means that you can write Markdown file in anything text editor that supports plain text. Thirdly, the Markdown file can be translated easily to a wide array of formats. Therefore, without struggling with HTML tags, you will have a well-formated HTML by simply converting your Makedown file into HTML format.</p>
+<h3 id="how-those-tools-fit-into-the-structure-of-the-project">How those tools fit into the structure of the project</h3>
+<ol style="list-style-type: decimal">
+<li>Makefile</li>
+</ol>
+<p>Makefile is vital to the reproducibility of this report. While working on the project, I only changed contents in the four separate markdown files within the section folder. Then, by running makefile, it automatically combined all sections into one markdown file, and convert it to HTML format, which is the final report. As the project gets larger, it becomes more difficult to work within one gigantic file and if it is a program instead of a paper, with thousands of codes, you won't even know where to check if the program doesn't function properly. By separating one large program into smaller components and using Makefile to execute the final step, it enables a clear structure and quickly re-create the program even with changes in one or multiple section(s).</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Git</li>
+</ol>
+<p>Git is absolutely the most frequestly used command in this project. Every time I finish a section, I use git and add the contents from my local folder to the remote repository. By keeping track of changes and use <code>git commit</code> to take &quot;screeshots&quot; of changes, I can clearly see all the progresses I made with timestamps and recover my data back to previous versions if needed. Although this is an individual project, I can see how Git can faciliates collaboration by creating this central repo and everyone will be able to see other people's progress and merge their portions into the main file without interrupting other's work.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>GitTub</li>
+</ol>
+<p>After pushing local changes and basically saving a backup copy on the remote repository, I feel secured about my project because I know it was properly stored and can be easily access from any computer at any time. The interfact on GitHub shows me a clear structure of my project, and due to its ability to read different formats, I will be able to check the output markdown and HTML file easily in the browser. In addition, I found a lot of interesting projects by looking through different people's project. Reading their codes, README file, different algorithms applied really motivates and inspires me to work on a project of my own, and their thoughts and methods provide me with a clear starting point and basic structure.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Pandoc</li>
+</ol>
+<p>I used Pandoc in my makefile to convert the markdown file to the HTML format. The perfectly-formated HTML output illustrates how powerful pandoc can be and I believe I will use this command a lot more in the future to fit the format based on different requirements.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Markdown</li>
+</ol>
+<p>This is the format that I got practiced the most during this project. It simple syntax and the ability to convert to a wide range of formats eliminate the barrier to generate reports in a format that you might not know well. Some extremely useful features are simple text formatting, images adding and including code chunk offers a easy solution to create well-formatted report.</p>
+<h3 id="challenges-encountered-during-the-project">Challenges encountered during the project</h3>
+<p>In the beginning, I struggled a lot with writing the makefile. This is a completely new idea for me, and to generate the correct output in the correct folder, I need to be extra-cautious about the relative paths for outputs and dependencies. Besides, there are a lot of abreviations in writing Makefiles such as how to set and use variables, wildcards functions and symbols that refer to target and dependencies. Although there are not of particular importance in this project, I think mastering those syntax will benefit my future learning and it takes time to get comfortable to use them and fully incorporate the idea of Makefile into my regular workflow.</p>
+<h3 id="what-is-the-most-time-consuming-part-of-the-project">What is the most time consuming part of the project?</h3>
+<p>This is my first time using many of those tools, so although I learned how to use them during class, I don't fully understand the mechanism behind those complicated systems and potential benefits associated with them. In order to finish the introduction part, I read a lot of articles to get a better understanding of those commands and file types. Therefore, reading through other resources and come up with my own interpretation is the most time-consuming part of the project.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>It took me about 5 hours in total to finish the project and an extra hour for proofreading and adjusting minor mistakes in order to cover all points specified in the project requirement. Resources I looked at mainly include the Wikipeida page, Quora inquiry pages, the manual on the official website for each tool and some concepts introduced in the lecture.</p>
+<p>In conclusion, this is a very interesting project to work on. After reading through relevant resources and getting real experience to generate a reproducible report, I have a more comprehensive understanding about the importance of reproducibiliy, especially in the academia field. All the tools introduced in this project serve as great starting points and common techniques to move towards the direction of reproducible research.</p>
 </body>
 </html>

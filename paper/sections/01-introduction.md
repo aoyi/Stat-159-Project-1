@@ -1,8 +1,8 @@
 ![](../images/stat159-logo.png)
 
-## Introduction 
+# Introduction 
 
-# Makefile
+## Makefile
 
 Makefile is a special format file that possesses the ability to automatically run commands and reproduct projects. The basic makefile is composed of 
 ```
@@ -12,7 +12,7 @@ target: dependencies
 After adding targets followed by dependencies and commands, to run this target, we type `make target` in the terminal. If no target is specified, `make` will execute `all` target, the default target for makefile. 
 There are three main advantages of makefile. First, by using scripts to compile programs, 'makefile' provides us with a solution to quickly re-reate a procedure when input changes, and in the same manner, makes it easier for others to reproduce the project. Second, makefile checks changes before it runs the command and only recompiles things that have been changed. Therefore, it is more efficient than building the entire file systems if we only had minor changes at a few places. 
 
-# Git
+## Git
 
 ![](../images/git-logo.png)
 
@@ -29,23 +29,27 @@ git add file
 git commit -m 'message'
 ```
 
-# GitHub
+## GitHub
 
 ![](../images/github-logo.png)
 
 GitHub is a web-based Git repository hostings services. There are three main advantages assoicated with this platform. First, it functions as a server to store all your git repos. By setting the repo as private or public, adding collaborators, and following simple procedures to create new repos or update old ones, it enables flexible project management for both individuals and companies. In addition, it makes the collaboration process much easier since the access to a repo provides you a clear strucutre together with a complete record of previous changes. Third, it also builds a great learning community. The enormous collection of open source softwares GitHub hosts provides people with access to a wide range of projects. So even if you are not actively contributing projects, it still offers you the opportunity to learn from other people's projects and experience. 
 
-# Pandoc
+## Pandoc
 
 ![](../images/pandoc-logo.png)
 
-Pandoc, a univeral socument converter, offers a convenient solution to convert files from one markup format into another. Instead of going through the tedious and oftentimes painful document, you can simply finish the conversion by typing one command line. By default, input is interpreted as pandoc markdown and output is HTML 4. To better explain how pandoc works, here is a typical pandoc command line:
+Pandoc, a univeral socument converter, offers a convenient solution to convert files from one markup format into another. Instead of going through the tedious and oftentimes painful document, you can move easily between formates by typing one command line. By default, input is interpreted as pandoc markdown and output is HTML 4. To better explain how pandoc works, here is a typical pandoc command line:
 ```
 pandoc input.md -f markdown -t html -s -o output.html
 ```
 Here, `-s` means to create a standalone file and '-f markdown -t html' is used to furthur specify the input and output format. With this command line, we convert input.md into output.html.
 
-# Markdown
+
+## Markdown
 
 ![](../images/markdown-logo.png)
+
+Markdown is both a plain text formatting syntax and also a tool that converts the plain text to different formats.  To start with, Markdown has simple syntax in human-readable format. Compared to complicated formats like HTML, it is much easier to read and understand. In addition, it is platform independent, which means that you can write Markdown file in anything text editor that supports plain text. Thirdly, the Markdown file can be translated easily to a wide array of formats. Therefore, without struggling with HTML tags, you will have a well-formated HTML by simply converting your Makedown file into HTML format. 
+
 

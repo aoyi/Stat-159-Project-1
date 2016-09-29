@@ -2,14 +2,13 @@
 
 
 ## Introduction
-This repo contains the first project for UC Berkeley Statistics 159: Reproducible and Collaborative Statistical Data Science. The main purpose of this project is to utilize the tools we have learned during class to create a reproducible report, explaining the use of tools such as make, git, markdown, etc. The requirements for this project can be found at https://github.com/ucb-stat159/stat159-fall-2016/blob/master/projects/proj01/proj01-essay.pdf 
+This repo contains the first project for UC Berkeley Statistics 159: Reproducible and Collaborative Statistical Data Science. The main purpose of this project is to utilize the tools we have learned during class to create a reproducible report, explaining the use of tools such as make, git, markdown, etc. The requirements for this project can be found at https://github.com/ucb-stat159/stat159-fall-2016/blob/master/projects/proj01/proj01-essay.pdf.
 
 ## Structure
 The structure of this project is listed as following:
 
 ```
 stat159-fall2016-project1/
-    .gitignore
     README.md
     Makefile
     paper/
@@ -40,7 +39,7 @@ Paper folder includes the contents that are used to generate the report. Four di
 
 4. Conclusion: Conclude on the importance of reproducible projects. 
 
-Images file contains logos for main tools we introduce in the project and is displayed as part of the report.
+Images file contains logos for tools we introduced in the project and those pictures are included in the final report.
 
 ## Contributors
 Aoyi Shan

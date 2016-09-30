@@ -41,7 +41,8 @@ Paper folder includes the contents that are used to generate the report. Four di
 
 Images file contains logos for tools we introduced in the project and those pictures are included in the final report.
 
-## Contributors
+## Contributor
+
 Aoyi Shan
 
 UC Berkeley Class of 2017

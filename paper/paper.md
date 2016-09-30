@@ -63,6 +63,8 @@ pandoc input.md -f markdown -t html -s -o output.html
 Markdown is both a plain text formatting syntax and a tool that converts the plain text to different formats. To start with, Markdown has simple syntax in human-readable form. Compared to other complicated formats like HTML, it is much easier to read and understand. In addition, it is platform independent, which means that you can write Markdown file in anything text editor that supports plain text. Thirdly, the Markdown file can be translated easily to a wide array of formats. Therefore, without struggling with HTML tags, you will have a well-formatted HTML by simply converting your Markdown file into HTML format. 
 
 
+# Discussion
+
 ### How Those Tools Fit into the Structure of this Project?
 
 #### 1. Makefile
